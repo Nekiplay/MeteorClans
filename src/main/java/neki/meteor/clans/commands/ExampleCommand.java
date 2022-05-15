@@ -1,4 +1,4 @@
-package dummy.addon.template.commands;
+package neki.meteor.clans.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import meteordevelopment.meteorclient.systems.commands.Command;
@@ -9,7 +9,7 @@ import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
 public class ExampleCommand extends Command {
     public ExampleCommand() {
-        super("example", "Sends a message.");
+        super("Clan info", "Sends a message.");
     }
 
     @Override
